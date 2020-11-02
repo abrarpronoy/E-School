@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	flex: 0 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+header{
+    padding: 20px 0px;
+}
+
+.heading{
+    text-align: center;
+    margin: 37px 0;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 15px;
+    /* background: honeydew; */
+    /* text-align: start; */
+    /* padding: 30px; */
+    /* border-radius: 15px; */
+    /* box-shadow: 6px 16px 20px 5px #00000026; */
+}
+
+/*Banner-section*/
+.banner-section{background: #F0FFF0;}
+.logo{
+    width: 15%;
+}
+
+nav{
+    width: 85%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #7778A1;
+    font-size: 18px;
+    padding: 10px 23px;
+    display: block;
+    transition-delay: .3s;
+    font-weight: 900;
+}
+nav ul li a:hover{
+    background: #21B573;
+    border-radius: 25px;
+    color: #fff;
+}
+
+a{}
+
+h1{
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+h1 span{
+    font-size: 56px !important;
+    color: #21b573 !important;
+    letter-spacing: .25px !important;
+}
+h2{
+    font-size: 51px;
+    /* margin-bottom: 39px; */
+    line-height: 1;
+}
+h3{
+    font-size: 20px;
+    color:     font-size: 20px;
+    color: #383838;
+    margin: 5px 0;
+    /* margin: 5px 0; */
+}
+p{
+    font-size: 20px;
+    line-height: 1.2;
+    color: #39393b;
+    margin-bottom: 10px;
+}
+body{
+	font-family: 'Open Sans',sans-sherif;
+}
+.pad-y{
+	padding-top: 30px;
+	padding-bottom:30px;
+	;
+}
+.banner-content{
+    width: 45%;
+    padding: 15px;
+}
+span{}
+.banner-content span{
+    color: #FC531C;
+    font-size: 20px;
+    letter-spacing: .1px;
+}
+
+
+
+.btn{
+    background: #21B573;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    /* display: block; */
+    transition-delay: .3s;
+    display: inline-block;
+}
+.btn:hover{}
+
+.banner-img{
+    width: 55%;
+    padding: 30px;
+}
+.banner-img img{
+    padding: 13px;
+}
+/*Banner-section*/
+
+
+/*Feature section*/
+
+.feature-section{}
+.feature{
+    background: #F8FFFB;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    /* box-shadow: 6px 16px 20px 5px #00000026; */
+}
+.feature img{
+    height: 80px;
+}
+.feature h3{}
+.feature p{
+    margin: 0;
+    font-size: 16px;
+}
+.feature:hover{
+    box-shadow: 6px 10px 30px 5px #00000026;
+    background: white;
+    /* background: #f0fff0; */
+    border-radius: 18px;
+    color: #fff;
+}
+/*Feature section*/
+
+/*course-section
+*/
+
+.course-section{}
+.course {
+    background: #fff;
+    /* text-align: center; */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 15px 17px 1px #0000001f;
+    /* margin: 30px; */
+}
+.course img{}
+.course h3{}
+.course p{
+    color: #545454;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 20px;
+}
+.course ul{
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.course ul li{
+    color: #545454;
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+}
+.course ul li a{}
+/*course-section
+*/
+.testimonial-section{
+    padding: 50px 0;
+}
+.testimonial-section .flex{
+	justify-content: center;
+	align-items: center;
+}
+.client-img{
+    padding: 15px;
+    width: 12%;
+}
+.client-img img{}
+
+.client-content {
+    width: 50%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 15px;
+    /* width: 60%; */
+}
+/*footer
+*/
+footer{
+    background: #39393b;
+}
+footer p{
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+footer span{}
+footer ul{}
+footer ul li{}
+footer ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    display: block;
+    font-weight: 300;
+}
+footer ul li  strong{
+    color: #fff;
+    font-size: 17px;
+}
+footer ul li a:hover{}
+
+.copyright{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+
