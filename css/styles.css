@@ -65,7 +65,7 @@ nav ul li a{
     padding: 10px 23px;
     display: block;
     transition-delay: .3s;
-    font-weight: 900;
+    font-weight: 600;
 }
 nav ul li a:hover{
     background: #21B573;
